@@ -13,6 +13,7 @@ header{
     color: #FFFFFF;
     padding: 20px;
 }
+/* /////////// h1 style/////////////// */
 
 .header h1{
     text-align: center;  
@@ -21,13 +22,6 @@ header{
 
 }
 
-table, th, td{
-
-    border: 1px solid #000000;
-    padding: 2px;
-    border-collapse: collapse;
-    
-}
 
 /* //////////// section body///////////// */
 .body{
@@ -45,6 +39,7 @@ table, th, td{
     text-transform: uppercase;
     font-size: 40px;
 }
+
 .body p {
     color: #FFFFFF;
     text-align: center;
@@ -57,15 +52,17 @@ table, th, td{
     margin-top: 20px;
 }
 
-.body button {
+/* ///////////////// All Button///////////////// */
+
+button {
     text-align: center;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #dff899;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 2px solid #0dc8af;
+    border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
@@ -77,6 +74,98 @@ table, th, td{
 }
 
 
+.know-me-div-1{
+
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.know-me-img-div{
+
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.know-me{
+    margin-top: 20px;
+    
+}
+
+.blog-1{
+
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #bbff00;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.blog-2{
+
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #bbff00;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.blog-3{
+
+    width: 30%;
+    display: inline-block;
+    border: 2px solid #bbff00;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.blog{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #bcc1c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email{
+    padding-right: 115px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.contact-button:hover{
+
+    background-color: #0291e4;
+    color: #ffffff;
+}
+
+.form{
+    background-color: #0772A4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.want{
+    letter-spacing: 5px;
+}
+
 /* /////////////// footer ///////////// */
 
 .footer{
@@ -86,5 +175,7 @@ table, th, td{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    text-transform: uppercase;  
+    letter-spacing: 20px; 
    
 }
